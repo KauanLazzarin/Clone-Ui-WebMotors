@@ -8,9 +8,10 @@ const NavigationContainer = styled.nav`
 `;
 
 const NavigationLink = styled.a`
-    font-size: 16px;
+    font-size: 15px;
     color: var(--small-text);
     font-family: 'Poppins';
+    font-weight: 700;
     display: flex;
     align-items: center;
     justify-content: center;
