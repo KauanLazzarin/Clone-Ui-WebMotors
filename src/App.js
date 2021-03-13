@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header/Header";
+import Slide from "./components/Slide/Slide";
+import FirstImage from './assets/first-slide-image.jpg';
+import SecondImage from './assets/second-slide-image.jpg';
+import ThirdImage from './assets/third-slide-image.jpg';
+import FourthyImage from './assets/fourthy-slide-image.png';
 
-function App() {
+export default function App() {
+  const HeaderSlides = [
+    {
+      id: 'firstImage',
+      src: FirstImage
+    },
+
+    {
+      id: 'secondImage',
+      src: SecondImage
+    },
+
+    {
+      id: 'thirdImage',
+      src: ThirdImage
+    },
+
+    {
+      id: 'fourthyImage',
+      src: FourthyImage
+    },
+  ]
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Slide slides={HeaderSlides} />
     </div>
-  );
+  );  
 }
-
-export default App;
