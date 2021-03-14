@@ -5,6 +5,7 @@ import SecondImage from './assets/second-slide-image.jpg';
 import ThirdImage from './assets/third-slide-image.jpg';
 import FourthyImage from './assets/fourthy-slide-image.png';
 import SearchBox from "./components/Search-Box/SearchBox";
+import BodySlide from "./components/Body-Slide/BodySlide";
 
 export default function App() {
   const HeaderSlides = [
@@ -34,6 +35,7 @@ export default function App() {
       <Header />
       <Slide slides={HeaderSlides} />
       <SearchBox />
+      <BodySlide />
     </div>
   );  
 }
