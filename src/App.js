@@ -1,11 +1,12 @@
 import Header from "./components/Header/Header";
 import Slide from "./components/Slide/Slide";
+import BodySlide from "./components/Body-Slide/BodySlide";
+import MostSearchedSlide from "./components/Most-Searched-Slide/MostSearchedSlide";
 import FirstImage from './assets/first-slide-image.jpg';
 import SecondImage from './assets/second-slide-image.jpg';
 import ThirdImage from './assets/third-slide-image.jpg';
 import FourthyImage from './assets/fourthy-slide-image.png';
 import SearchBox from "./components/Search-Box/SearchBox";
-import BodySlide from "./components/Body-Slide/BodySlide";
 
 export default function App() {
   const HeaderSlides = [
@@ -36,6 +37,7 @@ export default function App() {
       <Slide slides={HeaderSlides} />
       <SearchBox />
       <BodySlide />
+      <MostSearchedSlide />
     </div>
   );  
 }
