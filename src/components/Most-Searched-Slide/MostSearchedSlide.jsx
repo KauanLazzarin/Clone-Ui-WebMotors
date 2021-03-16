@@ -129,7 +129,8 @@ export default function MostSearchedSlide () {
                                     key={slide.id} 
                                     ref={slideRef} 
                                     style={{
-                                        background: `url(${slide.src})`,
+                                        backgroundColor: 'white',
+                                        backgroundImage: `url(${slide.src})`,
                                         backgroundRepeat: 'no-repeat',
                                         backgroundSize:'16vw',
                                         backgroundPosition:'center 60px',
