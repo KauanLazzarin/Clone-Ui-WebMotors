@@ -8,6 +8,7 @@ import ThirdImage from './assets/third-slide-image.jpg';
 import FourthyImage from './assets/fourthy-slide-image.png';
 import SearchBox from "./components/Search-Box/SearchBox";
 import UsedCarsSlide from "./components/Used-Cars-Slide/UsedCarsSlide";
+import News from "./components/News/News";
 
 export default function App() {
   const HeaderSlides = [
@@ -40,6 +41,7 @@ export default function App() {
       <BodySlide />
       <MostSearchedSlide />
       <UsedCarsSlide />
+      <News />
     </div>
   );  
 }

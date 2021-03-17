@@ -30,7 +30,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
-    height: 40vh;
+    height:41vh;
     background-color: white;
     border-radius: 10px 10px 0 0;
     box-shadow: 2px 2px 10px 2px var(--dark-white-border);
