@@ -9,6 +9,8 @@ import FourthyImage from './assets/fourthy-slide-image.png';
 import SearchBox from "./components/Search-Box/SearchBox";
 import UsedCarsSlide from "./components/Used-Cars-Slide/UsedCarsSlide";
 import News from "./components/News/News";
+import BottomMenu from "./components/Bottom-Menu/BottomMenu";
+import Footer from "./components/Footer/Footer";
 
 export default function App() {
   const HeaderSlides = [
@@ -42,6 +44,8 @@ export default function App() {
       <MostSearchedSlide />
       <UsedCarsSlide />
       <News />
+      <BottomMenu />
+      <Footer />
     </div>
   );  
 }
